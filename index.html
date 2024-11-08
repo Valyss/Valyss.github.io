@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda De ropa</title>
-    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/css/index.css">
+
 </head>
-<body>
-    
-    
-    <div>
-        <h1>Tienda de ropa en linea</h1>
-        <p>Tenemos productos a segundos de ti</p>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+
+    <div class="flex flex-col items-center ">
+        <h1 class="text-white text-2xl p-6">Tienda de ropa en linea</h1>
+
+        <p class="self text-xl px-6 w-90">Tenemos todo tipo de
+            productos a segundos de ti</p>
+    </div>
+
+    <div class="flex  items-center py-8 justify-evenly">
+
+        <div class="flex flex-row ">
+            <div class="h-full self-center w-56 p-4 text-center">
+                <p class="text-lg mb-4">Muestra de algunos productos nuevos!</p>
+                <a class="bg-slate-800 border p-2 rounded-xl hover:bg-slate-500" href="productos.html">Ver Ahora</a>
+
+            </div>
+            <div class="cuadros-img justify-items-center grid grid-cols-2 grid-rows-2 gap-2">
+                <img src="public/caballero.jpg" alt="ropa de caballero" width="90" height="120">
+                <img src="public/dama.jpg" alt="ropa de dama" width="90" height="120">
+                <img src="public/niño.jpg" alt="ropa de niño" width="90" height="120">
+                <img src="public/niña.jpg" alt="ropa de niña" width="90" height="120">
+            </div>
+        </div>
+
+        <div class=" flex flex-row">
+            <div class="h-full self-center w-56 p-4 text-center">
+                <p class="text-lg mb-4">Muestra de algunos productos nuevos!</p>
+                <a class="bg-slate-800 border p-2 rounded-xl hover:bg-slate-500" href="productos.html">Ver Ahora</a>
+
+            </div>
+            <div class="cuadros-img justify-items-center grid grid-cols-2 grid-rows-2 gap-2">
+                <img src="public/z-caballero-1.jpg" alt="ropa de caballero" width="90" height="120">
+                <img src="public/z-caballero-2.jpg" alt="ropa de dama" width="90" height="120">
+                <img src="public/z-dama-1.jpg" alt="ropa de niño" width="90" height="120">
+                <img src="public/z-dama-2.jpg" alt="ropa de niña" width="90" height="120">
+            </div>
+        </div>
+
     </div>
     <div>
-        <p> Muestreo de productos</p>
-        <div>
-            <img src="tienda.jpg" alt="tienda de ropa">
-            
-        </div>
+
+
+        <a href="contacto.html">contactanos</a>
     </div>
 
 </body>
+
 </html>
