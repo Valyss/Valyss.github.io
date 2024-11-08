@@ -1,11 +1,7 @@
-:root{
-    --bg:#414141;
-    --txt:#fff;
-}
-html{
-    background-color: var(--bg);
-    color: var(--txt);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color-scheme: light dark;
-    
+.cuadros-img>img {
+    border-radius: 5px;
+    min-height: 120px;
+    height: 120px;
+    min-width: 100px;
+
 }
